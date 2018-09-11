@@ -1,0 +1,40 @@
+常用指令
+/kill @e[type=!Player] 这个指令只能删除已加载区块内的生物
+/gamerule doMobSpawning false 禁止区块内再有生物生成
+//sel<cuboid|extend|poly|ellip soid|sphere|cyl> 设置选区使用的形状
+//desel 清除当前的选区
+//distr[-cd] 获取方块分布率
+//set brick 将整个区域都改成砖块
+//set 0 换成空气
+//replace sandstone dirt  将沙石替换成泥土
+//overlay <方块ID> 将指定方块放在选区内所有方块上方
+//expand <数量> <方向>向指定方向扩大选区范围 (可用方向有 north,south,east,west,up,down)
+//expand <数量> 向你所看的方向扩大选区范围
+//expand vert 将选区扩大到从天空到基岩
+//move 1 up 将选区向上移动 1 格
+//undo [步数] 撤销你的上一个(或几个)操作
+//redo [步数] 重做你上一个(或几个)被撤销的操作
+/clearhistory 清除你的历史记
+//stack [数量] [方向] 叠加选区内容
+//copy 复制当前选区内容，注意你与选区的相对位置将 被储存
+//cut 剪切当前选区内容
+//paste [-ao] 粘贴剪贴板内容。如果你使用-a标签，空气方块 将会被忽略
+//rotate <角度> 旋转剪贴板内容
+//flip [方向] 翻转剪贴板内容
+/snow [半径] 模拟降雪
+/thaw [半径] 融化附近的积雪 
+//ex [范围] 扑灭附近的火焰
+//fillr <方块> <半径> 以递归模式填充完全一个洞
+//drain <半径> 吸干附近的水或岩浆
+//green 绿化附近
+=================================================
+/gamerule doDaylightCycle false 锁定游戏内的时间
+/gamerule doDaylightCycle ture  解锁锁游戏内的时间
+/gamerule doDaylightCycle 查看当前游戏内的时间规则
+/time set 1000 中午
+=================================================
+/weather clear 晴天
+//<schematic|schem><save|load>[<格式>]<文件名>
+
+
+ //cyl 2 15,20 1
